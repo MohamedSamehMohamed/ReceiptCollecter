@@ -30,7 +30,7 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 
 ## Screenshots
 
-App previews from version 1.4.1 using fictional sample expenses.
+App previews from version 1.5.0 using fictional sample expenses.
 
 | Overview | Expenses | Spending over time |
 | --- | --- | --- |
@@ -42,7 +42,31 @@ App previews from version 1.4.1 using fictional sample expenses.
 
 ## Version history
 
-Versions below describe the app's development history. Version **1.4.1** is the first APK published in this GitHub repository; earlier APKs have not been uploaded here.
+All seven versions are preserved as separate releases, each with its original APK and checksum. **1.5.0** is the latest release. Older builds are available for reference; Android normally prevents installing an older build over a newer one.
+
+| Version | Download | Changes |
+| --- | --- | --- |
+| 1.5.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.5.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.5.0) |
+| 1.4.1 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.1/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.1) |
+| 1.4.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.0/receipt-collecter-1.4.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.0) |
+| 1.3.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.3.0/receipt-collecter-1.3.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.3.0) |
+| 1.2.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.2.0/receipt-collecter-1.2.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.2.0) |
+| 1.1.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.1.0/receipt-collecter-1.1.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.1.0) |
+| 1.0.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.0.0/receipt-collecter-1.0.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.0.0) |
+
+
+### 1.5.0 — Complete UI redesign
+
+- Bundled IBM Plex Sans Arabic and centralized light/dark design tokens.
+- Added four navigation destinations around a raised center + button and a new Add sheet with safe repeat actions.
+- Redesigned Overview with month selection, category mix and recent expenses.
+- Added searchable expense lists with type/default-buyer filters and daily groups.
+- Added buyer chips, inline buyer creation, a quick-expense category grid, and sticky save controls.
+- Redesigned Insights with monthly bars, breakdown tabs and a buyer/category grid.
+- Redesigned Price history with item chips, ranges, purchase bars and receipt links.
+- Added persistent System/Light/Dark selection in Settings and separate Categories, Buyers, and Stores/payees management pages.
+- Preserved the database schema and JSON formats. Scan review remains deferred.
+- Validation: clean Flutter analysis, all 53 tests passed, and Arabic/English light/dark previews at 1.3× text.
 
 ### 1.4.1 — More expenses per screen
 
