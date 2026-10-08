@@ -28,6 +28,18 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 - **Arabic and English**, right-to-left layouts, light/dark themes, and system text scaling.
 - **Offline storage:** data stays in the app's local SQLite database. Current expense entry and portable files use EGP.
 
+## Screenshots
+
+App previews from version 1.4.1 using fictional sample expenses.
+
+| Overview | Expenses | Spending over time |
+| --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_overview.png" alt="English overview" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_expenses.png" alt="Expense list" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_monthly_trend.png" alt="Monthly spending graph" width="240"> |
+
+| Quick expense | Arabic overview | Dark mode |
+| --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_quick_expense.png" alt="Quick expense entry" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/ar_overview.png" alt="Arabic overview" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_dark_overview.png" alt="Dark mode overview" width="240"> |
+
 ## Version history
 
 Versions below describe the app's development history. Version **1.4.1** is the first APK published in this GitHub repository; earlier APKs have not been uploaded here.
@@ -93,7 +105,7 @@ The local project includes:
 
 ## Development
 
-This GitHub repository currently hosts the README and APK releases. The Flutter source project is maintained locally; the automatically generated “Source code” release archives contain the repository files, not the complete app source.
+This GitHub repository currently hosts the README, app screenshots, and APK releases. The Flutter source project is maintained locally; the automatically generated “Source code” release archives contain the repository files, not the complete app source.
 
 With Flutter and the Android SDK installed, run these commands in the source project:
 
