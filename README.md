@@ -19,6 +19,7 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 
 ## Features
 
+- **Offline receipt scanning:** camera/gallery, crop/rotate, bundled Arabic/English OCR and editable review. Correct missed or misread items; saving requires confirmation and matching totals. Phone runtime verification is pending.
 - **Itemized receipts:** store, buyer, date, notes, categories, quantities, unit prices, and discounts.
 - **Quick expenses:** record rent, subscriptions, and other payments with an amount and category; optionally add a description, payee, and notes.
 - **Price history:** compare recorded unit prices for the same item across purchase dates and open the related receipts. Prices are shown before discounts.
@@ -34,15 +35,37 @@ See the version-specific galleries below. These are app renders using fictional 
 
 ## Version history
 
-From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.5.0** is the latest release; 1.4.1 is preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
+From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.6.0** is the latest release; 1.5.0 and 1.4.1 are preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
 
 | Version | Download | Changes |
 | --- | --- | --- |
+| 1.6.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.6.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.6.0) |
 | 1.5.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.5.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.5.0) |
 | 1.4.1 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.1/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.1) |
 | 1.1.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.1.0/receipt-collecter-1.1.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.1.0) |
 | 1.0.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.0.0/receipt-collecter-1.0.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.0.0) |
 
+
+### 1.6.0 — Offline receipt scanning
+
+- Added **Add → Scan receipt** with camera/gallery selection and crop/rotation.
+- Bundled Arabic and English OCR models: no account, internet or API key required.
+- Added photo/raw-text review and editable receipt fields. OCR can miss or misread
+  items; review remains mandatory. Cash and gross totals are not automatically
+  substituted for the payable total.
+- Saving requires explicit review confirmation and exact agreement between the
+  entered payable total and item totals including discounts. Editing clears the
+  confirmation. Existing receipt storage, price history and JSON format remain.
+- Receipt photos are temporary review images, not saved image attachments.
+- [Usage and accuracy notes](offline-scanning.md).
+
+#### 1.6.0 app screenshots
+
+Fictional sample receipt; rendered from the actual Flutter screens.
+
+| Scan receipt | Review before saving | Arabic review |
+| --- | --- | --- |
+| <img src="v1.6.0-en-scanner-light.png" width="240" alt="Offline scanner"> | <img src="v1.6.0-en-review-light.png" width="240" alt="Editable scan review"> | <img src="v1.6.0-ar-review-light.png" width="240" alt="Arabic scan review"> |
 
 ### 1.5.0 — Complete UI redesign
 
