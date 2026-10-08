@@ -42,15 +42,12 @@ App previews from version 1.5.0 using fictional sample expenses.
 
 ## Version history
 
-All seven versions are preserved as separate releases, each with its original APK and checksum. **1.5.0** is the latest release. Older builds are available for reference; Android normally prevents installing an older build over a newer one.
+From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.5.0** is the latest release; 1.4.1 is preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
 
 | Version | Download | Changes |
 | --- | --- | --- |
 | 1.5.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.5.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.5.0) |
 | 1.4.1 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.1/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.1) |
-| 1.4.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.0/receipt-collecter-1.4.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.0) |
-| 1.3.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.3.0/receipt-collecter-1.3.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.3.0) |
-| 1.2.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.2.0/receipt-collecter-1.2.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.2.0) |
 | 1.1.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.1.0/receipt-collecter-1.1.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.1.0) |
 | 1.0.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.0.0/receipt-collecter-1.0.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.0.0) |
 
