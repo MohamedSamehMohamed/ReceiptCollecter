@@ -30,15 +30,7 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 
 ## Screenshots
 
-App previews from version 1.5.0 using fictional sample expenses.
-
-| Overview | Expenses | Spending over time |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_overview.png" alt="English overview" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_expenses.png" alt="Expense list" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_monthly_trend.png" alt="Monthly spending graph" width="240"> |
-
-| Quick expense | Arabic overview | Dark mode |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_quick_expense.png" alt="Quick expense entry" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/ar_overview.png" alt="Arabic overview" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/master/en_dark_overview.png" alt="Dark mode overview" width="240"> |
+See the version-specific galleries below. These are app renders using fictional sample expenses. Screenshots are preserved per version rather than replaced by future updates.
 
 ## Version history
 
@@ -65,6 +57,27 @@ From version 1.5.0 onward, every update is published as a new release while prev
 - Preserved the database schema and JSON formats. Scan review remains deferred.
 - Validation: clean Flutter analysis, all 53 tests passed, and Arabic/English light/dark previews at 1.3× text.
 
+#### 1.5.0 screenshots
+
+| Overview and month selection | Searchable Expenses | Insights and spending graph |
+| --- | --- | --- |
+| <img src="v1.5.0-en_overview.png" alt="Version 1.5.0 Overview" width="240"> | <img src="v1.5.0-en_expenses.png" alt="Version 1.5.0 Expenses" width="240"> | <img src="v1.5.0-en_insights.png" alt="Version 1.5.0 Insights" width="240"> |
+
+| Itemized receipt and discounts | Quick expense category grid | Item price history |
+| --- | --- | --- |
+| <img src="v1.5.0-en_itemized_receipt.png" alt="Version 1.5.0 receipt editor" width="240"> | <img src="v1.5.0-en_quick_expense.png" alt="Version 1.5.0 quick expense" width="240"> | <img src="v1.5.0-en_price_history.png" alt="Version 1.5.0 price history" width="240"> |
+
+| Add sheet and repeat actions | Settings and theme selection | Arabic Overview |
+| --- | --- | --- |
+| <img src="v1.5.0-en_add_sheet.png" alt="Version 1.5.0 Add sheet" width="240"> | <img src="v1.5.0-en_settings.png" alt="Version 1.5.0 Settings" width="240"> | <img src="v1.5.0-ar_overview.png" alt="Version 1.5.0 Arabic" width="240"> |
+
+<details>
+<summary>Version 1.5.0 dark mode</summary>
+
+<img src="v1.5.0-en_dark_overview.png" alt="Version 1.5.0 dark Overview" width="280">
+
+</details>
+
 ### 1.4.1 — More expenses per screen
 
 - Reduced default font sizes and shortened the monthly summary card.
@@ -72,6 +85,14 @@ From version 1.5.0 onward, every update is published as a new release while prev
 - Phone previews at 390 × 844 show four expenses without scrolling in both English and Arabic.
 - Preserved system text scaling and the existing database.
 - Validation: clean Flutter analysis and all 43 tests passed.
+
+#### 1.4.1 screenshots
+
+These preserved screenshots show the previous interface before the 1.5.0 redesign.
+
+| Compact Overview | Monthly spending graph | Arabic Overview |
+| --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/f0acf37062ce60b42a65f09d5c7ec61a76f974a9/en_overview.png" alt="Version 1.4.1 Overview" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/f0acf37062ce60b42a65f09d5c7ec61a76f974a9/en_monthly_trend.png" alt="Version 1.4.1 spending graph" width="240"> | <img src="https://raw.githubusercontent.com/MohamedSamehMohamed/ReceiptCollecter/f0acf37062ce60b42a65f09d5c7ec61a76f974a9/ar_overview.png" alt="Version 1.4.1 Arabic" width="240"> |
 
 ### 1.4.0 — Teal interface and icons
 
@@ -114,6 +135,8 @@ From version 1.5.0 onward, every update is published as a new release while prev
 - Added this month's Overview and date-filtered spending Insights.
 - Added Arabic/English localization and local SQLite storage.
 
+Historical screenshots for versions 1.0.0–1.4.0 were not captured. Their changes are documented above; the current galleries illustrate the features retained in 1.5.0.
+
 ## Import files
 
 Use the app's **Settings → Import expenses** to select a JSON file, review its contents, and confirm the import. **Export expenses** saves active expenses with their reference names and discounts.
@@ -148,6 +171,10 @@ On the development machine, local tooling is used by:
 ```
 
 The current APK uses a development signing key. Published APK updates must keep the same application ID and signing key to install over existing versions.
+
+## Release documentation policy
+
+For every future release, add a new version section describing what it introduces, preserves, and supports; include screenshots from that build with version-specific filenames; link its release page and APK; and retain existing release notes and screenshot assets.
 
 ## Design reference
 
