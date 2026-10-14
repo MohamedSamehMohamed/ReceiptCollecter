@@ -19,6 +19,8 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 
 ## Features
 
+- **ChatGPT receipt handoff:** share a photo and JSON instructions, paste the reply, then edit and confirm the receipt. No API key required; ChatGPT needs its normal account/network access.
+
 - **Offline receipt scanning:** camera/gallery, crop/rotate, bundled Arabic/English OCR and editable review. Correct missed or misread items; saving requires confirmation and matching totals. Phone runtime verification is pending.
 - **Itemized receipts:** store, buyer, date, notes, categories, quantities, unit prices, and discounts.
 - **Quick expenses:** record rent, subscriptions, and other payments with an amount and category; optionally add a description, payee, and notes.
@@ -35,16 +37,35 @@ See the version-specific galleries below. These are app renders using fictional 
 
 ## Version history
 
-From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.6.0** is the latest release; 1.5.0 and 1.4.1 are preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
+From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.7.0** is the latest release; 1.6.0, 1.5.0 and 1.4.1 are preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
 
 | Version | Download | Changes |
 | --- | --- | --- |
+| 1.7.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.7.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.7.0) |
 | 1.6.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.6.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.6.0) |
 | 1.5.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.5.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.5.0) |
 | 1.4.1 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.4.1/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.4.1) |
 | 1.1.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.1.0/receipt-collecter-1.1.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.1.0) |
 | 1.0.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.0.0/receipt-collecter-1.0.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.0.0) |
 
+
+### 1.7.0 — ChatGPT receipt handoff
+
+- Added **Scan receipt → Use ChatGPT** alongside on-device OCR, with camera/gallery and crop/rotate.
+- Share the receipt photo and JSON instructions with the installed Android ChatGPT app; copy instructions if the receiving app drops the text. No API key is required.
+- Paste the reply back into the app, validate it, and open an editable receipt. Saving requires review confirmation and exact totals. Missing values stay blank; discounts are preserved.
+- Resume with the last selected photo after reopening; clear the photo explicitly or save to remove it.
+- Supports Arabic/English and light/dark mode; no database migration or transfer format change.
+- Clean Flutter analysis and all 69 tests pass. Real-phone ChatGPT sharing remains unverified.
+- [Workflow and JSON format](chatgpt-receipts.md).
+
+#### 1.7.0 app screenshots
+
+Rendered from the Flutter screens; these show the return-and-paste stage.
+
+| English | Arabic |
+| --- | --- |
+| <img src="v1.7.0-en-chatgpt-light.png" width="240" alt="ChatGPT JSON return screen"> | <img src="v1.7.0-ar-chatgpt-light.png" width="240" alt="Arabic ChatGPT JSON return screen"> |
 
 ### 1.6.0 — Offline receipt scanning
 
