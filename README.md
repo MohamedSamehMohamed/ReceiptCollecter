@@ -19,6 +19,8 @@ Install updates over the existing app to preserve your data. **Do not uninstall 
 
 ## Features
 
+- **Accounts, income and transfers:** EGP Cash, Bank and Wallet balances, income entry and transfers, plus payment-account selection for expenses. Existing receipts are preserved and initially unassigned.
+
 - **ChatGPT receipt handoff:** share a photo and JSON instructions, paste the reply, then edit and confirm the receipt. No API key required; ChatGPT needs its normal account/network access.
 
 - **Offline receipt scanning:** camera/gallery, crop/rotate, bundled Arabic/English OCR and editable review. Correct missed or misread items; saving requires confirmation and matching totals. Phone runtime verification is pending.
@@ -37,10 +39,11 @@ See the version-specific galleries below. These are app renders using fictional 
 
 ## Version history
 
-From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.7.0** is the latest release; 1.6.0, 1.5.0 and 1.4.1 are preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
+From version 1.5.0 onward, every update is published as a new release while previous releases remain available. **1.8.0** is the latest release; 1.7.0, 1.6.0, 1.5.0 and 1.4.1 are preserved. The 1.0.0 and 1.1.0 original builds are also available as historical archives.
 
 | Version | Download | Changes |
 | --- | --- | --- |
+| 1.8.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.8.0) |
 | 1.7.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.7.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.7.0) |
 | 1.6.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.6.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.6.0) |
 | 1.5.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.5.0/receipt-collecter.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.5.0) |
@@ -48,6 +51,25 @@ From version 1.5.0 onward, every update is published as a new release while prev
 | 1.1.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.1.0/receipt-collecter-1.1.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.1.0) |
 | 1.0.0 | [APK](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.0.0/receipt-collecter-1.0.0.apk) | [Release notes](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/tag/v1.0.0) |
 
+
+### 1.8.0 — Accounts, income and transfers
+
+- Added EGP Cash, Bank and Wallet accounts with editable opening balances.
+- Record and edit income; transfer between accounts without counting transfers as income or spending. Delete income/transfers with confirmation.
+- Choose **Paid from** on receipts, scan review and quick expenses. Account balances update when expenses or movements change.
+- Added total balances, monthly income/spending/net and money activity, available from Overview and Settings. Income and Transfer actions are also in the Add sheet.
+- Upgrades preserve all existing receipt and item fields; older receipts remain unassigned until you select an account. Real schema 1 and 2 migration tests compare every original field, including deleted records and discounts.
+- Expense JSON remains compatible but excludes the new financial records/account assignments. This is not a full backup.
+- Validation: clean Flutter analysis, all **79 tests passed**, signed release APK built. Physical-phone upgrade verification is pending.
+- [Usage, balances and migration details](accounts-income-transfers.md).
+
+#### 1.8.0 app screenshots
+
+Fictional account data rendered from the actual Flutter screens.
+
+| English accounts | Arabic accounts (dark) |
+| --- | --- |
+| <img src="v1.8.0-en-accounts-light.png" width="240" alt="Accounts balances and money activity"> | <img src="v1.8.0-ar-accounts-dark.png" width="240" alt="Arabic accounts in dark mode"> |
 
 ### 1.7.0 — ChatGPT receipt handoff
 
