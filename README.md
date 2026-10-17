@@ -6,12 +6,12 @@ An offline Android expense tracker in **Arabic and English**. Record itemized re
 
 Watch the 80-second commercial featuring real recordings of Receipt Collecter 1.8.0: receipt photo selection, offline OCR, review and corrections, saving, Expenses, Overview and Insights.
 
-[![Watch the Receipt Tracker commercial](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/commercial-poster.jpg)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-16x9.mp4)
+[![Watch the Receipt Tracker commercial](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/commercial-poster.jpg)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-16x9-male.mp4)
 
-- **[Watch or download landscape (16:9)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-16x9.mp4)** — 1920 × 1080.
-- **[Watch or download vertical (9:16)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-9x16.mp4)** — 1080 × 1920.
+- **[Watch or download landscape (16:9)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-16x9-male.mp4)** — 1920 × 1080.
+- **[Watch or download vertical (9:16)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-9x16-male.mp4)** — 1080 × 1920.
 
-Both MP4s are 80 seconds at 30 fps, with H.264 video and stereo AAC audio. This stock-footage edition uses fictional demo data and synthesized narration; processing and manual edits are condensed. The illustrative filmed scenes do not depict one continuous actor or location. “Receipt Tracker” is the commercial title; the actual Android app remains Receipt Collecter.
+Both MP4s are 80 seconds at 30 fps, with H.264 video and stereo AAC audio. This stock-footage edition uses fictional demo data and the selected free Kokoro am_michael male narration (synthesized locally); processing and manual edits are condensed. The illustrative filmed scenes do not depict one continuous actor or location. “Receipt Tracker” is the commercial title; the actual Android app remains Receipt Collecter.
 
 Stock footage: [Kampus Production](https://www.pexels.com/@kampus/) and [BRoll.io](https://www.pexels.com/video/android-phone-with-green-screen-chroma-key-852313/), via [Pexels](https://www.pexels.com/license/). Music and sound effects were created for the commercial.
 
