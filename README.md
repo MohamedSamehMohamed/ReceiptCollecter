@@ -4,6 +4,8 @@ An offline Android expense tracker in **Arabic and English**. Record itemized re
 
 ## Commercial
 
+**[Watch on YouTube](https://www.youtube.com/watch?v=X_zRi-FSybc)** · Published on [@mohamedsameh8966](https://www.youtube.com/@mohamedsameh8966).
+
 Watch the 80-second commercial featuring real recordings of Receipt Collecter 1.8.0: receipt photo selection, offline OCR, review and corrections, saving, Expenses, Overview and Insights.
 
 [![Watch the Receipt Tracker commercial](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/commercial-poster.jpg)](https://github.com/MohamedSamehMohamed/ReceiptCollecter/releases/download/v1.8.0/receipt-tracker-commercial-16x9-male.mp4)
